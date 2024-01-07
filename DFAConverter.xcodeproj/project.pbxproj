@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		675AB1682B4236F4007EBC4D /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675AB1662B4236F4007EBC4D /* State.cpp */; };
+		67774DA82B4A3FBA002FB84F /* NFAConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67774DA62B4A3FBA002FB84F /* NFAConverter.cpp */; };
 		67955CE32B3E392E001A2222 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67955CE22B3E392E001A2222 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		675AB1662B4236F4007EBC4D /* State.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
+		675AB1672B4236F4007EBC4D /* State.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = State.hpp; sourceTree = "<group>"; };
+		67774DA62B4A3FBA002FB84F /* NFAConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NFAConverter.cpp; sourceTree = "<group>"; };
+		67774DA72B4A3FBA002FB84F /* NFAConverter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NFAConverter.hpp; sourceTree = "<group>"; };
 		67955CDF2B3E392E001A2222 /* DFAConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFAConverter; sourceTree = BUILT_PRODUCTS_DIR; };
 		67955CE22B3E392E001A2222 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				67955CE22B3E392E001A2222 /* main.cpp */,
+				675AB1662B4236F4007EBC4D /* State.cpp */,
+				67774DA62B4A3FBA002FB84F /* NFAConverter.cpp */,
+				67774DA72B4A3FBA002FB84F /* NFAConverter.hpp */,
+				675AB1672B4236F4007EBC4D /* State.hpp */,
 			);
 			path = DFAConverter;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				67955CE32B3E392E001A2222 /* main.cpp in Sources */,
+				675AB1682B4236F4007EBC4D /* State.cpp in Sources */,
+				67774DA82B4A3FBA002FB84F /* NFAConverter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
